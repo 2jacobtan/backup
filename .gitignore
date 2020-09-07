@@ -5,4 +5,5 @@
 !.gitignore
 !.zshrc
 !custom_aliases.zsh
+!cclaw.zsh-theme
 # etc...
