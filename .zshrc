@@ -1,4 +1,5 @@
 # ~/.zshrc on SCLAWS server
+
 source /usr/share/oh-my-zsh/zshrc
 
 # alias egrep='egrep --color=auto'
