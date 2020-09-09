@@ -2,6 +2,7 @@
 
 # based on rkj-repos
 # modified by mengwong 20200819 to use local TZ in the date, and move the prompt around a bit
+# Modified by 2jacobtan 2020-09-09 (only one char difference).
 
 function hg_prompt_info {
   if (( $+commands[hg] )) && grep -q "prompt" ~/.hgrc; then
