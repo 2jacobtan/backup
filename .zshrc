@@ -17,3 +17,7 @@ alias ls='ls -F --color=auto --show-control-chars'
 # haskel language server
 path+=$HOME/haskell-language-server
 
+TMPDIR=$HOME/tmp
+
+source $HOME/.oh-my-zsh/custom/zsh-vim-mode/zsh-vim-mode.plugin.zsh
+
