@@ -3,7 +3,10 @@
 [ -f "/home/jt2/.ghcup/env" ] && source "/home/jt2/.ghcup/env" # ghcup-env
 
 # Haskell Stack installer told me to add this.
-export PATH="/home/jt2/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # use vim as default editor (e.g. when git looks for one)
 export EDITOR=/usr/bin/vim
+
+if [ -e /home/jt2/.nix-profile/etc/profile.d/nix.sh ]; then . /home/jt2/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
