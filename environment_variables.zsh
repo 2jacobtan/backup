@@ -10,3 +10,6 @@ export EDITOR=/usr/bin/vim
 
 if [ -e /home/jt2/.nix-profile/etc/profile.d/nix.sh ]; then . /home/jt2/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
+# path to Grammatical Framework resource grammar library
+export GF_LIB_PATH=$HOME/grammatical-framework/gf-rgl/src
+
