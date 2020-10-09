@@ -1,6 +1,6 @@
 # $ZSH_CUSTOM/environment_variables.zsh on Shiversphere WSL
 
-[ -f "/home/jt2/.ghcup/env" ] && source "/home/jt2/.ghcup/env" # ghcup-env
+[ -f "$HOME/.ghcup/env" ] && source "$HOME/.ghcup/env" # ghcup-env
 
 # Haskell Stack installer told me to add this.
 export PATH="$HOME/.local/bin:$PATH"
